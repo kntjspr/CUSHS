@@ -68,10 +68,8 @@ preg_match_all($re, $filtered, $response, PREG_SET_ORDER, 0);
 
 $code = ($response[0][1]);
 
-echo "<div class="col-sm">
-<div class=\"alert alert-success\" role=\"alert\">
+echo "<div class=\"alert alert-success\" role=\"alert\">
 Currently disabled for some reasons.
-</div>
 </div>";
 }
 ?>
