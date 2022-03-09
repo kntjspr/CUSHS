@@ -33,8 +33,10 @@
  <?php
 if (isset($_POST['submit']))
   {
+echo "<div class=\"progress\">\n  <div class=\"progress-bar progress-bar-striped progress-bar-animated\" role=\"progressbar\" aria-valuenow=\"75\" aria-valuemin=\"0\" aria-valuemax=\"100\" style=\"width: 75%\"></div>\n</div>";
   // Execute this code if the submit button is pressed.
   $formvalue = $_POST['input_value'];
+ 
   }
 ?>
 
@@ -45,7 +47,6 @@ $query = htmlspecialchars($_GET['input_value']);
 if (empty($query)) {
     die();
   } else {
- echo "<div class=\"progress\">\n  <div class=\"progress-bar progress-bar-striped bg-success\" role=\"progressbar\" style=\"width: 25%\" aria-valuenow=\"25\" aria-valuemin=\"0\" aria-valuemax=\"100\"></div>\n</div>";
     $query = htmlspecialchars($_GET['input_value']);
         $url = $query;
 $curl = curl_init();
