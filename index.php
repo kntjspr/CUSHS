@@ -13,6 +13,9 @@
   
        <div class="col-sm">
         <h2> CUSHS Exam Code Proof of Concept </h2>
+             <div class="alert alert-danger" role="alert">
+  For demonstration purposes only.
+  </div>
        <form NAME="myform" ACTION="" METHOD="GET">
   <div class="form-group">
     <label for="exampleInputEmail1">Google Form Address</label>
@@ -23,9 +26,7 @@
   <button type="submit" onClick="testResults(this.form)" class="btn btn-success" >Submit </button>
 </form>
 </div>
-     <div class="alert alert-danger" role="alert">
-  For demonstration purposes only.
-  </div>
+
  </div>
   </div>
 </body>
