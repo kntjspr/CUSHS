@@ -33,7 +33,6 @@
  <?php
 if (isset($_POST['submit']))
   {
-echo "<div class=\"progress\">\n  <div class=\"progress-bar progress-bar-striped progress-bar-animated\" role=\"progressbar\" aria-valuenow=\"75\" aria-valuemin=\"0\" aria-valuemax=\"100\" style=\"width: 75%\"></div>\n</div>";
   // Execute this code if the submit button is pressed.
   $formvalue = $_POST['input_value'];
  
@@ -75,8 +74,9 @@ preg_match_all($re, $filtered, $response, PREG_SET_ORDER, 0);
 
 $code = ($response[0][1]);
 
-echo "<div class=\"alert alert-danger\" role=\"alert\">
+echo "<div class=\"col-sm\"><div class=\"alert alert-danger\" role=\"alert\">
 Currently disabled for some reasons.
+</div>
 </div>";
 }
 ?>
