@@ -12,19 +12,22 @@
  
   
        <div class="col-sm">
-        <div class="alert alert-danger" role="alert">
-  For demonstration purposes only.
- </div>
+   
        <form NAME="myform" ACTION="" METHOD="GET">
   <div class="form-group">
     <label for="exampleInputEmail1">Google Form Address</label>
     <input type="Google Form Address" class="form-control" name="input_value" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Google Form URL">
   
   
-</div>
+
   <button type="submit" onClick="testResults(this.form)" class="btn btn-success" >Submit </button>
 </form>
 </div>
+     <div class="alert alert-danger" role="alert">
+  For demonstration purposes only.
+  </div>
+ </div>
+  </div>
 </body>
  </html>
  <?php
