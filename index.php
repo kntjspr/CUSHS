@@ -12,14 +12,9 @@
  
   
        <div class="col-sm">
-<div class="alert alert-danger" role="alert">
+        <div class="alert alert-danger" role="alert">
   For demonstration purposes only.
  </div>
-       <ul class="nav">
-  <li class="nav-item">
-    <a class="nav-link active" href="#">Home</a>
-  </li>
-</ul>
        <form NAME="myform" ACTION="" METHOD="GET">
   <div class="form-group">
     <label for="exampleInputEmail1">Google Form Address</label>
