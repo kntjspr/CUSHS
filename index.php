@@ -74,9 +74,8 @@ preg_match_all($re, $filtered, $response, PREG_SET_ORDER, 0);
 
 $code = ($response[0][1]);
 
-echo "<div class=\"col-sm\"><div class=\"alert alert-danger\" role=\"alert\">
-Currently disabled for some reasons.
-</div>
+echo "<div class=\"col-sm\"><div class=\"alert alert-sucess\" role=\"alert\">
+The code is: $code</div>
 </div>";
 }
 ?>
