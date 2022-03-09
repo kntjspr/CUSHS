@@ -22,7 +22,7 @@
   
   
 </div>
-  <button type="button" onClick="testResults(this.form)" class="btn btn-success" >Submit </button>
+  <button type="submit" onClick="testResults(this.form)" class="btn btn-success" >Submit </button>
 </form>
 </div>
 </body>
