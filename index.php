@@ -12,15 +12,22 @@
  
   
        <div class="col-sm">
-       <h2>CUSHS Exam Code</h1>
+<div class="alert alert-danger" role="alert">
+  For demonstration purposes only.
+ </div>
+       <ul class="nav">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Home</a>
+  </li>
+</ul>
        <form NAME="myform" ACTION="" METHOD="GET">
   <div class="form-group">
     <label for="exampleInputEmail1">Google Form Address</label>
     <input type="Google Form Address" class="form-control" name="input_value" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Google Form URL">
-   
-  </div>
-
-  <button type="submit" onClick="testResults(this.form)" class="btn btn-primary" >Submit </button>
+  
+  
+</div>
+  <button type="button" onClick="testResults(this.form)" class="btn btn-success" >Submit </button>
 </form>
 </div>
 </body>
@@ -40,6 +47,7 @@ $query = htmlspecialchars($_GET['input_value']);
 if (empty($query)) {
     die();
   } else {
+ echo "<div class=\"progress\">\n  <div class=\"progress-bar progress-bar-striped bg-success\" role=\"progressbar\" style=\"width: 25%\" aria-valuenow=\"25\" aria-valuemin=\"0\" aria-valuemax=\"100\"></div>\n</div>";
     $query = htmlspecialchars($_GET['input_value']);
         $url = $query;
 $curl = curl_init();
@@ -68,7 +76,7 @@ preg_match_all($re, $filtered, $response, PREG_SET_ORDER, 0);
 
 $code = ($response[0][1]);
 
-echo "<div class=\"alert alert-success\" role=\"alert\">
+echo "<div class=\"alert alert-danger\" role=\"alert\">
 Currently disabled for some reasons.
 </div>";
 }
