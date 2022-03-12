@@ -14,7 +14,8 @@
        <div class="col-sm">
         <h2> CUSHS Exam Code Proof of Concept </h2>
              <div class="alert alert-danger" role="alert">
-  For demonstration purposes only.
+  For demonstration purposes only. <a href="https://github.com/kntjspr/">My profile</a>
+
   </div>
        <form NAME="myform" ACTION="" METHOD="GET">
   <div class="form-group">
