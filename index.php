@@ -75,9 +75,6 @@ $re = ('/\\[\"(\\w*)\"\\]\\]\\]/');
 preg_match_all($re, $filtered, $response, PREG_SET_ORDER, 0);
 
 $code = ($response[0][1]);
-if (code=="") {
- $code = "Not found";
-}
 
 echo "<div class=\"col-sm\"><div class=\"alert alert-success\" role=\"alert\">
 The code is: $code
