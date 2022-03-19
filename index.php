@@ -27,16 +27,7 @@
   <button type="submit" onClick="testResults(this.form)" class="btn btn-success" >Submit </button>
 </form>
 </div>
-<div class="col-sm">
-  
-    
-  
-  
 
-  
-
-<h3> How it works: </h3><p> 1. Send GET request to the google form url using cURL</p><p>2. Parse exam code using Regex</p></div>
- </div>
   </div>
 </body>
  </html>
@@ -89,3 +80,13 @@ The code is: $code
 </div></div>";
 }
 ?>
+<div class="col-sm">
+  
+    
+  
+  
+
+  
+
+<h3> How it works: </h3><p> 1. Send GET request to the google form url using cURL</p><p>2. Parse exam code using Regex</p></div>
+ </div>
