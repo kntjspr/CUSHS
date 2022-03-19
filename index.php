@@ -14,7 +14,7 @@
        <div class="col-sm">
         <h2> Proof of concept | CUSHS Exam Code  </h2>
              <div class="alert alert-danger" role="alert">
- <a href="https://github.com/kntjspr/">My profile. </a> For demonstration purposes only. 
+ For demonstration purposes only.
 
   </div>
        <form NAME="myform" ACTION="" METHOD="GET">
@@ -27,7 +27,15 @@
   <button type="submit" onClick="testResults(this.form)" class="btn btn-success" >Submit </button>
 </form>
 </div>
+<div class="col-sm">
+  
+    
+  
+  
 
+  
+
+<h3> How it works: </h3><p> 1. Send GET request to the google form url using cURL</p><p>2. Parse exam code using Regex</p></div>
  </div>
   </div>
 </body>
