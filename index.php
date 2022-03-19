@@ -12,7 +12,7 @@
  
   
        <div class="col-sm">
-        <h2> CUSHS Exam Code Proof of Concept </h2>
+        <h2> Proof of concept | CUSHS Exam Code  </h2>
              <div class="alert alert-danger" role="alert">
  <a href="https://github.com/kntjspr/">My profile. </a> For demonstration purposes only. 
 
