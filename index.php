@@ -63,8 +63,4 @@ The code is: $code
 }
 ?>
 <div class="col-sm">
-<h3> How it works: </h3>
- <p> Google forms uses javascript data validation technique in storing exam codes instead of decrypting codes in the server. </p> 
-<p> All we have to do is to scrape that data to get the exam codes</p> 
- <p> 1. Send GET request to the google form url using cURL</p><p>2. Parse exam code using Regex</p></div>
  </div>
