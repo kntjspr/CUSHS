@@ -10,7 +10,7 @@
        <div class="col-sm">
         <h2> Proof of concept | CUSHS Exam Code  </h2>
              <div class="alert alert-danger" role="alert">
- For demonstration purposes only.
+ For the goal of demonstrating to capitol university faculty. THIS PRODUCT IS NOT INTENDED FOR USE IN ACTUAL EXAMS. 
   </div>
        <form NAME="myform" ACTION="" METHOD="GET">
   <div class="form-group">
