@@ -11,7 +11,7 @@
        <div class="col-sm">
         <h2> Proof of concept | CUSHS Exam Code  </h2>
              <div class="alert alert-danger" role="alert">
- Proof of concept purposes only. THIS PRODUCT IS NOT INTENDED FOR USE IN ACTUAL EXAMS. 
+ Proof of concept. THIS PRODUCT IS NOT INTENDED FOR USE IN ACTUAL EXAMS. 
   </div>
        <form NAME="myform" ACTION="" METHOD="GET">
   <div class="form-group">
