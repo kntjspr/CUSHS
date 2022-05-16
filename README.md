@@ -1,5 +1,5 @@
 # CUSHS
-CUSHS Exam Code Parser written in PHP (Mar 8, 2022).
+CUSHS Exam Code Parser written in PHP (Mar 8, 2022). 
 
 The entire code was written in 45 mins (approximately) so expect some spaghetti code.
 
