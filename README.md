@@ -16,4 +16,4 @@ I always wondered how the codes are being validated so quickly (in milliseconds)
 I found out that google forms uses javascript data validation technique in storing exam codes so instead of decrypting codes in the database like a normal password, they are stored in plaintext. All we have to do is to scrape that data to get the codes.
 
 1. Send GET request to the google form url using cURL or other similar techniques.
-2. Parse the code using Regex.
+2. Parse the code using RegEx.
