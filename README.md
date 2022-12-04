@@ -11,8 +11,9 @@ https://cushs-testrun.herokuapp.com/
 
 
 ## How it works: 
-I always wondered how the exam codes are being validated so quickly (in milliseconds), yet decrypting even a few ascii characters would take at least a few seconds, and I'd finally had time to mess around. 
+I always wondered how the codes are being validated so quickly (in milliseconds), whilst a traditional authentication would take at least a few seconds (establishing db connection + decrypting process), my curiosity got ahead of me.
 
-I found out that google forms uses javascript data validation technique in storing exam codes so instead of decrypting codes in the server like a normal password, they are stored in plaintext. All we have to do is to scrape that data to get the exam codes.
-1. Send request to the google form url using cURL or other techniques.
-2. Parse it using Regex.
+I found out that google forms uses javascript data validation technique in storing exam codes so instead of decrypting codes in the database like a normal password, they are stored in plaintext. All we have to do is to scrape that data to get the codes.
+
+1. Send GET request to the google form url using cURL or other similar techniques.
+2. Parse the code using Regex.
